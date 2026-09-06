@@ -111,7 +111,7 @@ if __name__ == "__main__":
   port = int(os.environ.get("PORT", 5000))
 
   # Webhook'u Telegram'a Tanımlama Komutu
-  WEBHOOK_URL = f"https://golge.onrender.com/{TOKEN}"
+  WEBHOOK_URL = f"https://golge-1.onrender.com/{TOKEN}"
   bot.remove_webhook()
   bot.set_webhook(url=WEBHOOK_URL)
 
